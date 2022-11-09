@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="alertForm">
+        <input id="alertInput" type="text" autocomplete="off"/>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <br>
+    <form id="sandwichForm">
+        <h2>Sandwich Builder</h2>
+        <div>
+            <label>Turkey</label>
+            <input class="ingredients" id="turkey" type="checkbox">
+        </div>
+
+        <div>
+            <label>Mayo</label>
+            <input class="ingredients" id="mayo" type="checkbox">
+        </div>
+
+        <div>
+            <label>Chicken</label>
+            <input class="ingredients" id="chicken" type="checkbox">
+        </div>
+
+        <div>
+            <label>Lettuce</label>
+            <input class="ingredients" id="lettuce" type="checkbox">
+        </div>
+
+        <div>
+            <label>Cheese</label>
+            <input class="ingredients" id="cheese" type="checkbox">
+        </div>
+
+        <div>
+            <label>Ham</label>
+            <input class="ingredients" id="ham" type="checkbox">
+        </div>
+
+        <div>
+            <label>Pineapple</label>
+            <input class="ingredients" id="pineapple" type="checkbox">
+        </div>
+
+        <div>
+            <label>Tomato</label>
+            <input class="ingredients" id="tomato" type="checkbox">
+        </div>
+
+        <div>
+            <label>Salt</label>
+            <input class="ingredients" id="salt" type="checkbox">
+        </div>
+
+        <div>
+            <label>Pepper</label>
+            <input class="ingredients" id="pepper" type="checkbox">
+        </div>
+
+        <!-- add 10 in total -->
+
+        <input type="submit">
+    </form>
+    <br>
+    <div>
+        <form id="haircutScheduler">
+            <h3>Haircut Appointment Scheduler</h3>
+            <div>
+                <label>Date</label>
+                <input id="date" type="date">
+            </div>
+            <div>
+                <label>Hair Cutter</label>
+                <input id="hairCutter" type="text" autocomplete="off">
+            </div>
+            <div>
+                <label id="hairLengthLabel">Hair Length:</label>
+                <div>
+                    <label>Long</label>
+                    <input id ="longHair" type="radio" name="hairLength" checked value="Long"> 
+                </div>
+                <div>
+                    <label>Short</label>
+                    <input id ="shortHair" type="radio" name="hairLength" value="Short"> 
+                </div>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    <div>
+        <form id="createAccountForm">
+            <h3>Create Account</h3>
+            <div>
+                <label>Username:</label>
+                <input id="userName" type="text" autocomplete="off">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input id="email" type="email" autocomplete="off">
+            </div>
+            <div>
+                <label>Password:</label>
+                <input id="password-1"type="password" autocomplete="off">
+            </div>
+            <label>Re-enter Password:</label>
+            <input id="password-2" type="password" autocomplete="off">
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <br>
+
+    <script src="main.js"></script>
+</body>
+</html>
